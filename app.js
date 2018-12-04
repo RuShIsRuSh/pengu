@@ -28,10 +28,8 @@ Raven.context(() => {
             commands: { deletable: true, quotedStringSupport: true, bucket: 2 },
             rawEvents: { enabled: true }
         },
-        providers: {
-            default: "rethinkdb",
-            rethinkdb: { db: "pengubot", servers: [{ host: config.database.host, port: config.database.port }] }
-        },
+	      providers: { 
+	      default: "postgresql", },
         console: { useColor: true },
         production: config.main.production,
         presence: { activity: { name: "❤ p!donate For Exclusive Patron Bot Access ➖ p!help", type: "PLAYING" } },

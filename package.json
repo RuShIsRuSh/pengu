@@ -8,12 +8,9 @@
     "lint": "eslint --fix ."
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AdityaTD/PenguBot.git"
+    "type": "git"
   },
   "keywords": [
-    "pengubot",
-    "pengu",
     "bot",
     "discord",
     "bot",
@@ -21,10 +18,6 @@
   ],
   "author": "Aditya Nath Tripathi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AdityaTD/PenguBot/issues"
-  },
-  "homepage": "https://github.com/AdityaTD/PenguBot#readme",
   "dependencies": {
     "@discordjs/uws": "^10.149.0",
     "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
@@ -38,10 +31,14 @@
     "heapdump": "^0.3.9",
     "idiotic-api": "github:YorkAARGH/Idiotic-Wrapper",
     "klasa": "github:dirigeants/klasa",
-    "klasa-dashboard-hooks": "github:PenguBot/klasa-dashboard-hooks",
-    "klasa-functions": "github:QuantumPlugin/klasa-functions-plugin",
+    "klasa-dashboard-hooks": "github:dirigeants/klasa-dashboard-hooks",
+    "klasa-functions": "github:KlasaCommunityPlugins/functions",
+    "mongodb": "^3.1.10",
+    "mysql2": "^1.6.4",
+    "pg": "^7.7.1",
     "raven": "^2.6.3",
     "rethinkdbdash": "^2.3.31",
+    "twemoji": "^11.2.0",
     "zlib-sync": "^0.1.4"
   },
   "devDependencies": {
